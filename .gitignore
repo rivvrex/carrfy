@@ -1,0 +1,47 @@
+# ---- Secrets & local config (never commit) ----
+local.properties
+app/google-services.json
+google-services.json
+keystore.properties
+*.jks
+*.keystore
+
+# ---- Gradle ----
+.gradle/
+build/
+app/build/
+captures/
+.externalNativeBuild/
+.cxx/
+
+# ---- Android build output ----
+*.apk
+*.aab
+*.ap_
+*.dex
+*.class
+bin/
+gen/
+out/
+release/
+
+# ---- Android Studio / IntelliJ ----
+*.iml
+.idea/*
+!.idea/codeStyles/
+!.idea/inspectionProfiles/
+.navigation/
+.cxx/
+
+# ---- Logs & scratch ----
+*.log
+build_errors.txt
+
+# ---- OS noise ----
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ---- Keep the Gradle wrapper ----
+# The wrapper jar must be committed so fresh clones can build.
+!gradle/wrapper/gradle-wrapper.jar

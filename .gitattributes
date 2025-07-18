@@ -1,0 +1,23 @@
+# Normalize line endings: store text files with LF in the repository,
+# check them out with each platform's native endings.
+* text=auto
+
+# The Gradle wrapper script MUST keep LF endings or it fails on
+# Linux/macOS with "bad interpreter: No such file or directory".
+gradlew text eol=lf
+
+# Windows batch files need CRLF.
+*.bat text eol=crlf
+
+# Binary files — never apply end-of-line conversion.
+*.jar binary
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.webp binary
+*.ttf binary
+*.otf binary
+*.keystore binary
+*.jks binary
+*.apk binary
+*.aab binary

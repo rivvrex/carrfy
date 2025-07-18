@@ -1,0 +1,6 @@
+<resources>
+    <color name="primary">#1DB954</color> <!-- Spotify green -->
+    <color name="onPrimary">#FFFFFF</color>
+    <color name="background">#121212</color>
+    <color name="onBackground">#FFFFFF</color>
+</resources> 

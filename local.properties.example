@@ -1,0 +1,15 @@
+# Copy this file to `local.properties` and fill in your own values.
+# `local.properties` is git-ignored — never commit it.
+
+# Path to your Android SDK.
+# Windows example: sdk.dir=C\:\\Users\\you\\AppData\\Local\\Android\\Sdk
+# macOS example:   sdk.dir=/Users/you/Library/Android/sdk
+# Linux example:   sdk.dir=/home/you/Android/Sdk
+sdk.dir=
+
+# Spotify API credentials — https://developer.spotify.com/dashboard
+# 1. Create an app in the dashboard
+# 2. Copy its Client ID and Client Secret here
+# Carrfy uses the Client Credentials flow, so no redirect URI is needed.
+spotify.client_id=
+spotify.client_secret=
