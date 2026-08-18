@@ -198,7 +198,3 @@ These are third-party services outside the project's control; availability and c
 ## Contributing
 
 Issues and pull requests are welcome. Please don't include `local.properties` or `google-services.json` in a PR.
-
-## License
-
-No license has been chosen yet. Without one, default copyright applies and others have no rights to reuse the code — adding an [MIT or Apache 2.0 license](https://choosealicense.com/) is recommended if you intend this to be usable by others.
